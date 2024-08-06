@@ -28,9 +28,17 @@ class ServicioDescargaProxyTest {
 
     @Test
     void elUsuarioFreeNoPuedeDescargarCanciones(){
+        //arrange
         IServicioDescarga servicioDescarga = new ServicioDescargaService();
         IServicioDescarga servicioDescargaProxy = new ServicioDescargaProxy(servicioDescarga);
 
+        Usuario usuarioFREE = new Usuario("2", TipoUsuario.FREE);
+
+        String resultadoEsperado = "El usuario FREE no puede descargar esta canción❌";
+        //act
+        String resultadoObtenido = servicioDescargaProxy.descargar(usuarioFREE);
+        //expect
+        assertEquals(resultadoEsperado, resultadoObtenido);
 
     }
 }

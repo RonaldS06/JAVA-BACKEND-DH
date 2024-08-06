@@ -1,0 +1,45 @@
+[2024-08-05 21:17:38] [ERROR] [Animal:48] class java.lang.ClassNotFoundException: org.h2.Driver
+[2024-08-05 21:17:38] [ERROR] [Animal:53] Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2024-08-05 21:24:43] [ERROR] [Animal:47] class org.h2.jdbc.JdbcSQLNonTransientConnectionException: A file path that is implicitly relative to the current working directory is not allowed in the database URL "jdbc:h2:~clase8c1-07". Use an absolute path, ~/name, ./name, or the baseDir setting instead. [90011-230]
+[2024-08-05 21:24:43] [ERROR] [Animal:52] Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2024-08-05 21:25:38] [ERROR] [Animal:47] class org.h2.jdbc.JdbcSQLNonTransientConnectionException: A file path that is implicitly relative to the current working directory is not allowed in the database URL "jdbc:h2:~clase8c1-07". Use an absolute path, ~/name, ./name, or the baseDir setting instead. [90011-230]
+[2024-08-05 21:25:38] [ERROR] [Animal:52] Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2024-08-05 21:28:11] [ERROR] [Animal:47] class org.h2.jdbc.JdbcSQLNonTransientConnectionException: A file path that is implicitly relative to the current working directory is not allowed in the database URL "jdbc:h2:". Use an absolute path, ~/name, ./name, or the baseDir setting instead. [90011-230]
+[2024-08-05 21:28:11] [ERROR] [Animal:52] Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2024-08-05 21:28:49] [ERROR] [Animal:47] class org.h2.jdbc.JdbcSQLDataException: Conversión de datos fallida, convirtiendo "Firulais"
+Data conversion error converting "Firulais" [22018-230]
+[2024-08-05 21:30:33] [ERROR] [Animal:47] class org.h2.jdbc.JdbcSQLDataException: Conversión de datos fallida, convirtiendo "Firulais"
+Data conversion error converting "Firulais" [22018-230]
+[2024-08-05 21:31:29] [INFO ] [Animal:32] Animal: 1 - Firulais - Perro
+[2024-08-05 21:31:29] [INFO ] [Animal:32] Animal: 2 - Lola - Vaca
+[2024-08-05 21:31:29] [INFO ] [Animal:32] Animal: 3 - Homero - Perro
+[2024-08-05 21:31:29] [INFO ] [Animal:32] Animal: 4 - Pepe - Sapo
+[2024-08-05 21:31:29] [INFO ] [Animal:32] Animal: 5 - Tuki - Loro
+[2024-08-05 21:31:29] [INFO ] [Animal:35] --------------------------------------------------------------------
+[2024-08-05 21:31:29] [INFO ] [Animal:42] Animal: 2 - Lola - Vaca
+[2024-08-05 21:31:29] [INFO ] [Animal:42] Animal: 3 - Homero - Perro
+[2024-08-05 21:31:29] [INFO ] [Animal:42] Animal: 4 - Pepe - Sapo
+[2024-08-05 21:31:29] [INFO ] [Animal:42] Animal: 5 - Tuki - Loro
+[2024-08-06 09:35:08] [ERROR] [Animal:47] class org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Nombre de usuario ó password incorrecto
+Wrong user name or password [28000-230]
+[2024-08-06 09:35:08] [ERROR] [Animal:52] Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2024-08-06 09:35:20] [INFO ] [Animal:32] Animal: 1 - Firulais - Perro
+[2024-08-06 09:35:20] [INFO ] [Animal:32] Animal: 2 - Lola - Vaca
+[2024-08-06 09:35:20] [INFO ] [Animal:32] Animal: 3 - Homero - Perro
+[2024-08-06 09:35:20] [INFO ] [Animal:32] Animal: 4 - Pepe - Sapo
+[2024-08-06 09:35:20] [INFO ] [Animal:32] Animal: 5 - Tuki - Loro
+[2024-08-06 09:35:20] [INFO ] [Animal:35] --------------------------------------------------------------------
+[2024-08-06 09:35:20] [INFO ] [Animal:42] Animal: 2 - Lola - Vaca
+[2024-08-06 09:35:20] [INFO ] [Animal:42] Animal: 3 - Homero - Perro
+[2024-08-06 09:35:20] [INFO ] [Animal:42] Animal: 4 - Pepe - Sapo
+[2024-08-06 09:35:20] [INFO ] [Animal:42] Animal: 5 - Tuki - Loro
+[2024-08-06 10:00:45] [INFO ] [Animal:28] Animal: 1 - Firulais - Perro
+[2024-08-06 10:00:45] [INFO ] [Animal:28] Animal: 2 - Lola - Vaca
+[2024-08-06 10:00:45] [INFO ] [Animal:28] Animal: 3 - Homero - Perro
+[2024-08-06 10:00:45] [INFO ] [Animal:28] Animal: 4 - Pepe - Sapo
+[2024-08-06 10:00:45] [INFO ] [Animal:28] Animal: 5 - Tuki - Loro
+[2024-08-06 10:00:45] [INFO ] [Animal:31] --------------------------------------------------------------------
+[2024-08-06 10:00:45] [INFO ] [Animal:38] Animal: 2 - Lola - Vaca
+[2024-08-06 10:00:45] [INFO ] [Animal:38] Animal: 3 - Homero - Perro
+[2024-08-06 10:00:45] [INFO ] [Animal:38] Animal: 4 - Pepe - Sapo
+[2024-08-06 10:00:45] [INFO ] [Animal:38] Animal: 5 - Tuki - Loro

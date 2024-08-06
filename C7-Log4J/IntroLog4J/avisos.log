@@ -1,0 +1,5 @@
+[2024-08-05 18:59:54] [INFO ] [Test:21] Empezamos a dividir: 1/0
+[2024-08-05 18:59:54] [ERROR] [Test:26] Ocurrio un error al dividir: 
+java.lang.ArithmeticException: / by zero
+	at com.backend.Calculadora.dividir(Calculadora.java:24)
+	at com.backend.Test.main(Test.java:15)
